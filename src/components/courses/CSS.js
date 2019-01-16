@@ -8,7 +8,7 @@ const CSS = (props) => {
       desc={course.description}
       img={course.img_src}
       key={course.id} />
-  }) 
+  })
   return (
     <div>
       <ul>
