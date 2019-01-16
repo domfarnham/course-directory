@@ -1,7 +1,8 @@
 import React from 'react'
 
 const Featured = ({ match }) => {
-  const { name, topic } = match.params
+  const { fname, lname, topic } = match.params
+  const name = `${fname} ${lname}`
 
   return (
     <div className='main-content'>
